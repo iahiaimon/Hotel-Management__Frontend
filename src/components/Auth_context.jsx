@@ -132,4 +132,4 @@ export const useAuth = () => {
 };
 
 // Add this missing constant
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://hotel-management-backend-0mx7.onrender.com";

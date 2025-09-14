@@ -10,7 +10,7 @@ export default function Carousel() {
   useEffect(() => {
     const fetchRooms = async () => {
       try {
-        const response = await fetch("http://localhost:8000/rooms");
+        const response = await fetch("https://hotel-management-backend-0mx7.onrender.com/rooms");
         const data = await response.json();
         setRooms(data);
         setLoading(false);

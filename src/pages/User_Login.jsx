@@ -15,7 +15,7 @@ export default function User_Login() {
     setError("");
 
     try {
-      const res = await axios.post("http://localhost:8000/token/", {
+      const res = await axios.post("https://hotel-management-backend-0mx7.onrender.com/token/", {
         email,
         password,
       });
